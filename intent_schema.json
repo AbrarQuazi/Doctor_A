@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "intent": "YesIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "gender",
+          "type": "LIST_OF_GENDERS"
+        }
+      ],
+      "intent": "GenderIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "age",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "AgeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "symptoms",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "SymptomIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "choice_number",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "AnswerIntent"
+    },{
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
