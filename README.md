@@ -1,4 +1,4 @@
-# Doctor_Alexa
+# Doctor_A
 
 This is an Amazon Alexa skill that is able to make a prediction on the type of possible disease that a person might have 
 based on their symptoms using the Infermedica API. The skill first asks for the persons age, gender, and known symptoms. It 
